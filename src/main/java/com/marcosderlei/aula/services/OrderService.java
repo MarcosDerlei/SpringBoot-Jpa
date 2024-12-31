@@ -15,7 +15,7 @@ public class OrderService {
 	@Autowired
 	private OrderRepository repository;
 
-	public List<Order> fidAll() {
+	public List<Order> findAll() {
 		return repository.findAll();
 	}
 
